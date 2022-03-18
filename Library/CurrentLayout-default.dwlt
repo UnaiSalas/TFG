@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 242}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 62
+  controlID: 102
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,8 +93,8 @@ MonoBehaviour:
     y: 0
     width: 1377
     height: 671
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 121}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 64
+  controlID: 104
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 242}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 1
-  controlID: 63
+  controlID: 103
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -480,8 +480,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -687.5
     m_HBaseRangeMax: 687.5
-    m_VBaseRangeMin: -325
-    m_VBaseRangeMax: 325
+    m_VBaseRangeMin: -314.5
+    m_VBaseRangeMax: 314.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -498,11 +498,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1375
-      height: 650
+      height: 629
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 687.5, y: 325}
+    m_Translation: {x: 687.5, y: 314.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -510,9 +510,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -687.5
-      y: -325
+      y: -314.5
       width: 1375
-      height: 650
+      height: 629
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1375, y: 650}
