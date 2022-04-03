@@ -1,0 +1,47 @@
+{
+    "MoverAObjetivo": {
+        "checkpoints": [
+            {
+                "steps": 499939,
+                "file_path": "results\\SAC_LR1e-3tau0.05\\MoverAObjetivo\\MoverAObjetivo-499939.onnx",
+                "reward": null,
+                "creation_time": 1648787540.316853,
+                "auxillary_file_paths": [
+                    "results\\SAC_LR1e-3tau0.05\\MoverAObjetivo\\MoverAObjetivo-499939.pt"
+                ]
+            },
+            {
+                "steps": 999946,
+                "file_path": "results\\SAC_LR1e-3tau0.05\\MoverAObjetivo\\MoverAObjetivo-999946.onnx",
+                "reward": null,
+                "creation_time": 1648790025.3068318,
+                "auxillary_file_paths": [
+                    "results\\SAC_LR1e-3tau0.05\\MoverAObjetivo\\MoverAObjetivo-999946.pt"
+                ]
+            },
+            {
+                "steps": 1000010,
+                "file_path": "results\\SAC_LR1e-3tau0.05\\MoverAObjetivo\\MoverAObjetivo-1000010.onnx",
+                "reward": null,
+                "creation_time": 1648790025.3816595,
+                "auxillary_file_paths": [
+                    "results\\SAC_LR1e-3tau0.05\\MoverAObjetivo\\MoverAObjetivo-1000010.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000010,
+            "file_path": "results\\SAC_LR1e-3tau0.05\\MoverAObjetivo.onnx",
+            "reward": null,
+            "creation_time": 1648790025.3816595,
+            "auxillary_file_paths": [
+                "results\\SAC_LR1e-3tau0.05\\MoverAObjetivo\\MoverAObjetivo-1000010.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cu113"
+    }
+}

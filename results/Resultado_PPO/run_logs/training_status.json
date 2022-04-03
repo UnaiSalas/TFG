@@ -1,0 +1,47 @@
+{
+    "MoverAObjetivo": {
+        "checkpoints": [
+            {
+                "steps": 499964,
+                "file_path": "results\\Resultado_PPO\\MoverAObjetivo\\MoverAObjetivo-499964.onnx",
+                "reward": null,
+                "creation_time": 1645946721.8444357,
+                "auxillary_file_paths": [
+                    "results\\Resultado_PPO\\MoverAObjetivo\\MoverAObjetivo-499964.pt"
+                ]
+            },
+            {
+                "steps": 999993,
+                "file_path": "results\\Resultado_PPO\\MoverAObjetivo\\MoverAObjetivo-999993.onnx",
+                "reward": null,
+                "creation_time": 1645948024.9877524,
+                "auxillary_file_paths": [
+                    "results\\Resultado_PPO\\MoverAObjetivo\\MoverAObjetivo-999993.pt"
+                ]
+            },
+            {
+                "steps": 1000121,
+                "file_path": "results\\Resultado_PPO\\MoverAObjetivo\\MoverAObjetivo-1000121.onnx",
+                "reward": null,
+                "creation_time": 1645948025.0500627,
+                "auxillary_file_paths": [
+                    "results\\Resultado_PPO\\MoverAObjetivo\\MoverAObjetivo-1000121.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000121,
+            "file_path": "results\\Resultado_PPO\\MoverAObjetivo.onnx",
+            "reward": null,
+            "creation_time": 1645948025.0500627,
+            "auxillary_file_paths": [
+                "results\\Resultado_PPO\\MoverAObjetivo\\MoverAObjetivo-1000121.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

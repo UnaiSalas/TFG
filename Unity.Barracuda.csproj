@@ -53,45 +53,45 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\ModelWriter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\BackwardsCompatibility.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaCompute.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\VerboseOps.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Internals\TestSetLoader.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\ComputeShaderSingleton.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Model.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaBurstCPU.Ops.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaPrecompiledCompute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\TensorExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\ModelAnalyzer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaUnsafeArrayCPU.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\TensorAllocators.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\ComputeInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\CompareOps.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaBackends.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\GenericWorker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\BackwardsCompatibility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Model.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\PluginInterfaces.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\StatsOps.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\LayerFusingHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaPrecompiledCompute.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\ModelLoader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Internals\NNModel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaReferenceCPU.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\ModelBuilder.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\StaticOpsComplexityHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaBurstCPU.Core.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Internals\Debug.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaComputeDebugUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\TensorExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaReferenceCompute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\MatrixUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaBurstCPU.Jobs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\ModelWriter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Internals\TestSetLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\ComputeShaderSingleton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\LayerFusingHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Internals\NNModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Internals\Debug.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\CompareOpsUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Internals\StringCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Tensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\ModelAnalyzer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\ModelOptimizer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaUnsafeArrayCPU.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\TensorAllocators.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\MatrixUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\ComputeInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Barracuda.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\CompareOps.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaBackends.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaBackendsFactory.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaReferenceCPU.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaComputeDebugUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\ModelOptimizer.cs" />
     <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Internals\NNModelData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\GenericWorker.cs" />
-    <Compile Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Backends\BarracudaBurstCPU.Jobs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Core\Resources\KernelDebugEnabled.cginc" />
@@ -346,6 +346,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="System.IO.Abstractions">
+      <HintPath>Library\PackageCache\com.unity.ml-agents@1.5.0-preview\Plugins\System.IO.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -355,29 +358,26 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.3.4\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>Library\PackageCache\com.unity.barracuda@1.1.1-preview\Barracuda\Runtime\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
     </Reference>
-    <Reference Include="System.Interactive.Async">
-      <HintPath>C:\Users\unais\Downloads\ml-agents-release_9\com.unity.ml-agents\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>C:\Users\unais\Downloads\ml-agents-release_9\com.unity.ml-agents\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.ml-agents@1.5.0-preview\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="System.IO.Abstractions">
-      <HintPath>C:\Users\unais\Downloads\ml-agents-release_9\com.unity.ml-agents\Plugins\System.IO.Abstractions.dll</HintPath>
+    <Reference Include="System.Interactive.Async">
+      <HintPath>Library\PackageCache\com.unity.ml-agents@1.5.0-preview\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>C:\Users\unais\Downloads\ml-agents-release_9\com.unity.ml-agents\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.ml-agents@1.5.0-preview\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

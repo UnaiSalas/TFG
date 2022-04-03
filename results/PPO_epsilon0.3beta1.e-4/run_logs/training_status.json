@@ -1,0 +1,47 @@
+{
+    "MoverAObjetivo": {
+        "checkpoints": [
+            {
+                "steps": 499985,
+                "file_path": "results\\PPO_epsilon0.3beta1.e-4\\MoverAObjetivo\\MoverAObjetivo-499985.onnx",
+                "reward": null,
+                "creation_time": 1648667382.7921298,
+                "auxillary_file_paths": [
+                    "results\\PPO_epsilon0.3beta1.e-4\\MoverAObjetivo\\MoverAObjetivo-499985.pt"
+                ]
+            },
+            {
+                "steps": 999984,
+                "file_path": "results\\PPO_epsilon0.3beta1.e-4\\MoverAObjetivo\\MoverAObjetivo-999984.onnx",
+                "reward": 0.9803750077262521,
+                "creation_time": 1648668053.9818292,
+                "auxillary_file_paths": [
+                    "results\\PPO_epsilon0.3beta1.e-4\\MoverAObjetivo\\MoverAObjetivo-999984.pt"
+                ]
+            },
+            {
+                "steps": 1000048,
+                "file_path": "results\\PPO_epsilon0.3beta1.e-4\\MoverAObjetivo\\MoverAObjetivo-1000048.onnx",
+                "reward": 0.9803750077262521,
+                "creation_time": 1648668054.0775733,
+                "auxillary_file_paths": [
+                    "results\\PPO_epsilon0.3beta1.e-4\\MoverAObjetivo\\MoverAObjetivo-1000048.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000048,
+            "file_path": "results\\PPO_epsilon0.3beta1.e-4\\MoverAObjetivo.onnx",
+            "reward": 0.9803750077262521,
+            "creation_time": 1648668054.0775733,
+            "auxillary_file_paths": [
+                "results\\PPO_epsilon0.3beta1.e-4\\MoverAObjetivo\\MoverAObjetivo-1000048.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cu113"
+    }
+}
