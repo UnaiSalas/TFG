@@ -1,0 +1,30 @@
+{
+    "MoverAObjetivo": {
+        "elo": 1200.0,
+        "checkpoints": [
+            {
+                "steps": 576,
+                "file_path": "results\\Prueba_Doble\\MoverAObjetivo\\MoverAObjetivo-576.onnx",
+                "reward": null,
+                "creation_time": 1650529497.5421286,
+                "auxillary_file_paths": [
+                    "results\\Prueba_Doble\\MoverAObjetivo\\MoverAObjetivo-576.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 576,
+            "file_path": "results\\Prueba_Doble\\MoverAObjetivo.onnx",
+            "reward": null,
+            "creation_time": 1650529497.5421286,
+            "auxillary_file_paths": [
+                "results\\Prueba_Doble\\MoverAObjetivo\\MoverAObjetivo-576.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cu113"
+    }
+}

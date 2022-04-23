@@ -5,24 +5,29 @@ using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
 using Unity.MLAgents.Actuators;
 
-public class MovimientoAMeta : Agent
+public class MovimientoAMetaAgente1 : Agent
 {
     [SerializeField] private Transform targetTransform;
     [SerializeField] private Material winMaterial;
     [SerializeField] private Material loseMaterial;
     [SerializeField] private MeshRenderer floorMeshRenderer;
 
+    [SerializeField] private Agent Oponente;
+
     public float RadioSpawn = 5f;
 
 
     public override void OnEpisodeBegin()
     {
-        
-
-        Spawn();
+        //x:-21 16 z:-25 10
+        transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+        targetTransform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+        Oponente.transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+        //Spawn();
         //transform.localPosition = new Vector3(Random.Range(4.5f, -8f), -5.2f, Random.Range(0f, -15f));
         //targetTransform.localPosition = new Vector3(Random.Range(4.5f, -8f), -5.2f, Random.Range(0f, -15f));
-        SetReward(0f);
+        this.SetReward(0f);
+        Oponente.SetReward(0f);
     }
     /*public override void CollectObservations()
     {
@@ -33,6 +38,7 @@ public class MovimientoAMeta : Agent
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         var discreteActionsOut = actionsOut.DiscreteActions;
+        var discreteActionsOut2 = actionsOut.DiscreteActions;
         //forward
         if (Input.GetKey(KeyCode.W))
         {
@@ -64,15 +70,15 @@ public class MovimientoAMeta : Agent
     public override void OnActionReceived(ActionBuffers actions) 
     { 
     
-        float moveX = actions.DiscreteActions[0];
+        float moveAgente = actions.DiscreteActions[0];
+        float moveOponente = actions.DiscreteActions[0];
 
         float moveSpeed = 1f;
 
-        switch (moveX)
+        switch (moveAgente)
         {
             case 1:
                 transform.localPosition += transform.forward * Time.deltaTime * moveSpeed;
-                Debug.Log(transform.localPosition);
                 break;
             case 2:
                 transform.localPosition += -transform.forward * Time.deltaTime * moveSpeed;
@@ -90,21 +96,22 @@ public class MovimientoAMeta : Agent
                 transform.Rotate(transform.up, -1f);
                 break;
         }
-
-
         //transform.localPosition += new Vector3(moveX, 0, moveZ) * Time.deltaTime * moveSpeed;
         //transform.Rotate(rotacion, Time.deltaTime * 50f);
-        AddReward(-0.00005f);
+
+
+        this.AddReward(-0.00005f);
     }
     private void OnTriggerEnter(Collider other)
     {
         if(other.TryGetComponent<Goal>(out Goal goal)){
-            AddReward(1f);
+            this.AddReward(1f);
+            Oponente.AddReward(-1f);
             floorMeshRenderer.material = winMaterial;
             EndEpisode();
         }
         if (other.TryGetComponent<Muro>(out Muro muro)){
-            AddReward(-1f);
+            this.AddReward(-1f);
             floorMeshRenderer.material = loseMaterial;
             EndEpisode();
         }
@@ -114,13 +121,11 @@ public class MovimientoAMeta : Agent
         Vector3 puntoMeta = new Vector3(Random.Range(4.5f, -8f), -5.2f, Random.Range(0f, -15f));
         Vector3 comprobacion = puntoMeta;
         comprobacion = puntoMeta + Random.insideUnitSphere.normalized * RadioSpawn;
-        while( (comprobacion.x > 5f || comprobacion.x < -8f) && comprobacion.y!=-5.2f && (comprobacion.z > 0f || comprobacion.z < -15f))
+        while((comprobacion.x > 5f || comprobacion.x < -8f) && comprobacion.y!=-5.2f && (comprobacion.z > 0f || comprobacion.z < -15f))
         {
             comprobacion = puntoMeta + Random.insideUnitSphere.normalized * RadioSpawn;
         }
         Vector3 puntoAgente = comprobacion;
-        Debug.Log(puntoAgente);
-        Debug.Log(puntoMeta);
         //public GameObject Agente2;
 
         // Start is called before the first frame 

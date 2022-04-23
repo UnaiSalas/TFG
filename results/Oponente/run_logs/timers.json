@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1650722954",
+        "python_version": "3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\unais\\anaconda3\\Scripts\\mlagents-learn config/PPODobleOponente.yml --run-id=Oponente",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0+cu113",
+        "numpy_version": "1.20.3",
+        "end_time_seconds": "1650722956"
+    },
+    "total": 1.6400558,
+    "count": 1,
+    "self": 0.004899300000000384,
+    "children": {
+        "run_training.setup": {
+            "total": 0.22448089999999987,
+            "count": 1,
+            "self": 0.22448089999999987
+        },
+        "TrainerController.start_learning": {
+            "total": 1.4106755999999998,
+            "count": 1,
+            "self": 9.30999999999571e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 1.4105713999999998,
+                    "count": 1,
+                    "self": 1.4105713999999998
+                },
+                "TrainerController._save_models": {
+                    "total": 1.1100000000041632e-05,
+                    "count": 1,
+                    "self": 1.1100000000041632e-05
+                }
+            }
+        }
+    }
+}

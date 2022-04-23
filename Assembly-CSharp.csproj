@@ -53,8 +53,7 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scrips\MovimientoAMeta.cs" />
-    <Compile Include="Assets\Scrips\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scrips\MovimientoAMetaOponente.cs" />
     <Compile Include="Assets\Scrips\Goal.cs" />
     <Compile Include="Assets\Scrips\Muro.cs" />
     <Compile Include="Assets\Scrips\MovimientoAMetaAgente1.cs" />

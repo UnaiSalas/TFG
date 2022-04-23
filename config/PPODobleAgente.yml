@@ -1,0 +1,32 @@
+behaviors:
+  MoverAObjetivoAgente:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 32
+      buffer_size: 2048
+      learning_rate: 1.0e-5
+      beta: 1.0e-2
+      epsilon: 0.3
+      lambd: 0.99
+      num_epoch: 3
+      learning_rate_schedule: linear
+      beta_schedule: constant
+      epsilon_schedule: linear
+    network_settings:
+      normalize: false
+      hidden_units: 256
+      num_layers: 4
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+    max_steps: 1000000
+    time_horizon: 64
+    summary_freq: 10000
+    self_play:
+      window: 10
+      play_against_latest_model_ratio: 0.5
+      save_steps: 20000
+      swap_steps: 10000
+      team_change: 100000
+  

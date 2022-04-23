@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Muro
   - Goal
+  - Oponente
+  - Agente
   layers:
   - Default
   - TransparentFX
