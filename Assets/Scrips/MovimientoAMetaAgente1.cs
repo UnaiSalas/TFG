@@ -100,7 +100,7 @@ public class MovimientoAMetaAgente1 : Agent
         //transform.Rotate(rotacion, Time.deltaTime * 50f);
 
 
-        this.AddReward(-0.00005f);
+        this.AddReward(-0.00001f);
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -116,7 +116,7 @@ public class MovimientoAMetaAgente1 : Agent
             EndEpisode();
         }
     }
-    private void Spawn()
+    /*private void Spawn()
     {
         Vector3 puntoMeta = new Vector3(Random.Range(4.5f, -8f), -5.2f, Random.Range(0f, -15f));
         Vector3 comprobacion = puntoMeta;
@@ -134,6 +134,6 @@ public class MovimientoAMetaAgente1 : Agent
         transform.localPosition = puntoAgente;
         targetTransform.localPosition = puntoMeta;
 
-    }
+    }*/
 
 }

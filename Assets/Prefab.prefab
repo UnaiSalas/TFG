@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 3813855371217685851}
   - component: {fileID: 1021618243998031663}
   - component: {fileID: 680250079079522359}
-  - component: {fileID: 2565920272272097119}
   - component: {fileID: 207943296082701792}
-  - component: {fileID: 314817475863234944}
+  - component: {fileID: 7334557087817486019}
+  - component: {fileID: 2304647964533617334}
   m_Layer: 0
   m_Name: Oponente
   m_TagString: Oponente
@@ -142,20 +142,6 @@ MonoBehaviour:
   m_UseChildSensors: 1
   m_UseChildActuators: 1
   m_ObservableAttributeHandling: 0
---- !u!114 &2565920272272097119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 955161539906922222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DecisionPeriod: 5
-  TakeActionsBetweenDecisions: 1
 --- !u!114 &207943296082701792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,7 +162,7 @@ MonoBehaviour:
   m_RaysPerDirection: 7
   m_MaxRayDegrees: 70
   m_SphereCastRadius: 0.3
-  m_RayLength: 20
+  m_RayLength: 35
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
@@ -185,7 +171,7 @@ MonoBehaviour:
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0
   m_EndVerticalOffset: 0
---- !u!114 &314817475863234944
+--- !u!114 &7334557087817486019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,19 +180,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 955161539906922222}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0345aa78da2161e4db5325636883cad8, type: 3}
+  m_Script: {fileID: 11500000, guid: c2d641e36dec32046a6506fd1f6bdd81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 10000
+  MaxStep: 50000
   targetTransform: {fileID: 4031539433695621236}
-  winMaterial: {fileID: 2100000, guid: abfe6bd24405c0d458b8b79317a9ddfd, type: 2}
-  loseMaterial: {fileID: 2100000, guid: 280720892f2383c459a6928f583316f2, type: 2}
+  winMaterial: {fileID: 2100000, guid: 80fb5702e2133554caa10b72cec32e45, type: 2}
+  loseMaterial: {fileID: 2100000, guid: 432153358e876d546b4a3431e7fa319d, type: 2}
   floorMeshRenderer: {fileID: 4031539434380015096}
-  Oponente: {fileID: 3826123778828507267}
-  RadioSpawn: 5
+  Agente: {fileID: 3826123778828507267}
+--- !u!114 &2304647964533617334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955161539906922222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DecisionPeriod: 5
+  TakeActionsBetweenDecisions: 1
 --- !u!1 &4031539432890001943
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,7 +1086,7 @@ MonoBehaviour:
   m_RaysPerDirection: 7
   m_MaxRayDegrees: 70
   m_SphereCastRadius: 0.3
-  m_RayLength: 20
+  m_RayLength: 35
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
@@ -1111,12 +1110,12 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 10000
+  MaxStep: 50000
   targetTransform: {fileID: 4031539433695621236}
   winMaterial: {fileID: 2100000, guid: abfe6bd24405c0d458b8b79317a9ddfd, type: 2}
   loseMaterial: {fileID: 2100000, guid: 280720892f2383c459a6928f583316f2, type: 2}
   floorMeshRenderer: {fileID: 4031539434380015096}
-  Oponente: {fileID: 0}
+  Oponente: {fileID: 7334557087817486019}
   RadioSpawn: 5
 --- !u!1 &7036594339150002736
 GameObject:

@@ -18,11 +18,9 @@ public class MovimientoAMetaOponente : Agent
 
     public override void OnEpisodeBegin()
     {
-        //transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
-        //targetTransform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
-        //Agente.transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
-        //this.transform.localPosition = new Vector3(Random.Range(4.5f, -8f), -5.2f, Random.Range(0f, -15f));
-        //targetTransform.localPosition = new Vector3(Random.Range(4.5f, -8f), -5.2f, Random.Range(0f, -15f));
+        transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+        targetTransform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+        Agente.transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
         this.SetReward(0f);
         Agente.SetReward(0f);
         
@@ -96,7 +94,7 @@ public class MovimientoAMetaOponente : Agent
 
         //transform.localPosition += new Vector3(moveX, 0, moveZ) * Time.deltaTime * moveSpeed;
         //transform.Rotate(rotacion, Time.deltaTime * 50f);
-        AddReward(-0.00005f);
+        AddReward(-0.00001f);
     }
     private void OnTriggerEnter(Collider other)
     {
