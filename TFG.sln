@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Barracuda.Editor", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Sysroot.Linux_x86_64", "Unity.Sysroot.Linux_x86_64.csproj", "{6B434395-1CFC-1DA0-6D74-B7EEF283E293}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Burst.CodeGen", "Unity.Burst.CodeGen.csproj", "{AE540130-03A5-0406-03AB-828F51B86D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +195,10 @@ Global
 		{6B434395-1CFC-1DA0-6D74-B7EEF283E293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B434395-1CFC-1DA0-6D74-B7EEF283E293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B434395-1CFC-1DA0-6D74-B7EEF283E293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE540130-03A5-0406-03AB-828F51B86D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE540130-03A5-0406-03AB-828F51B86D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE540130-03A5-0406-03AB-828F51B86D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE540130-03A5-0406-03AB-828F51B86D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
