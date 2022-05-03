@@ -1,0 +1,123 @@
+{
+    "MoverAObjetivoOponente": {
+        "checkpoints": [
+            {
+                "steps": 3499985,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-3499985.onnx",
+                "reward": 0.9896449882071465,
+                "creation_time": 1651560933.4759996,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-3499985.pt"
+                ]
+            },
+            {
+                "steps": 3999966,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-3999966.onnx",
+                "reward": 0.9882649916689843,
+                "creation_time": 1651561903.343551,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-3999966.pt"
+                ]
+            },
+            {
+                "steps": 4499978,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-4499978.onnx",
+                "reward": -1.1066800334956497,
+                "creation_time": 1651562860.322251,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-4499978.pt"
+                ]
+            },
+            {
+                "steps": 4999944,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-4999944.onnx",
+                "reward": null,
+                "creation_time": 1651563824.4582021,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-4999944.pt"
+                ]
+            },
+            {
+                "steps": 5000008,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-5000008.onnx",
+                "reward": null,
+                "creation_time": 1651563824.6217659,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-5000008.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000008,
+            "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoOponente.onnx",
+            "reward": null,
+            "creation_time": 1651563824.6217659,
+            "auxillary_file_paths": [
+                "results\\Fase2Circunferencia2\\MoverAObjetivoOponente\\MoverAObjetivoOponente-5000008.pt"
+            ]
+        }
+    },
+    "MoverAObjetivoAgente": {
+        "checkpoints": [
+            {
+                "steps": 3499942,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-3499942.onnx",
+                "reward": null,
+                "creation_time": 1651560935.1186595,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-3499942.pt"
+                ]
+            },
+            {
+                "steps": 3999970,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-3999970.onnx",
+                "reward": null,
+                "creation_time": 1651561903.1886845,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-3999970.pt"
+                ]
+            },
+            {
+                "steps": 4499955,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-4499955.onnx",
+                "reward": null,
+                "creation_time": 1651562860.1397393,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-4499955.pt"
+                ]
+            },
+            {
+                "steps": 4999952,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-4999952.onnx",
+                "reward": null,
+                "creation_time": 1651563822.7296894,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-4999952.pt"
+                ]
+            },
+            {
+                "steps": 5000464,
+                "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-5000464.onnx",
+                "reward": null,
+                "creation_time": 1651563824.5389872,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-5000464.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000464,
+            "file_path": "results\\Fase2Circunferencia2\\MoverAObjetivoAgente.onnx",
+            "reward": null,
+            "creation_time": 1651563824.5389872,
+            "auxillary_file_paths": [
+                "results\\Fase2Circunferencia2\\MoverAObjetivoAgente\\MoverAObjetivoAgente-5000464.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cu113"
+    }
+}

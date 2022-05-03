@@ -14,7 +14,6 @@ public class MovimientoAMetaOponente : Agent
 
     [SerializeField] private Agent Agente;
 
-    public float RadioSpawn = 5f;
 
     public override void OnEpisodeBegin()
     {
@@ -119,6 +118,7 @@ public class MovimientoAMetaOponente : Agent
         float zAgente = -26f;
         float xOponente = -22f;
         float zOponente = -26f;
+        float RadioSpawn = Random.Range(5f, 20f);
 
         while (xAgente < -21f || xAgente > 16f || zAgente < -25f || zAgente > 10f)
         {
