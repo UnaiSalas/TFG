@@ -377,6 +377,10 @@ PrefabInstance:
       propertyPath: Oponente
       value: 
       objectReference: {fileID: 932536505}
+    - target: {fileID: 3826123778828507267, guid: ae6fe2f1c1dfe754dbb9303620828d57, type: 3}
+      propertyPath: RadioSpawn
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 4031539432890001931, guid: ae6fe2f1c1dfe754dbb9303620828d57, type: 3}
       propertyPath: m_LocalScale.z
       value: 39.73798
@@ -532,6 +536,10 @@ PrefabInstance:
     - target: {fileID: 7334557087817486019, guid: ae6fe2f1c1dfe754dbb9303620828d57, type: 3}
       propertyPath: MaxStep
       value: 50000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334557087817486019, guid: ae6fe2f1c1dfe754dbb9303620828d57, type: 3}
+      propertyPath: RadioSpawn
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5888835446359933423, guid: ae6fe2f1c1dfe754dbb9303620828d57, type: 3}

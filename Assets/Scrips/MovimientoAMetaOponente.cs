@@ -14,16 +14,16 @@ public class MovimientoAMetaOponente : Agent
 
     [SerializeField] private Agent Agente;
 
-
+    public float RadioSpawn = 5f;
 
     public override void OnEpisodeBegin()
     {
-        transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
-        targetTransform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
-        Agente.transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
-        this.SetReward(0f);
-        Agente.SetReward(0f);
-        
+        //transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+        //targetTransform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+        //Agente.transform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+        //this.SetReward(0f);
+        //Agente.SetReward(0f);
+        Spawn();
     }
     /*public override void CollectObservations()
     {
@@ -67,7 +67,7 @@ public class MovimientoAMetaOponente : Agent
     
         float moveX = actions.DiscreteActions[0];
 
-        float moveSpeed = 1f;
+        float moveSpeed = 2f;
 
         switch (moveX)
         {
@@ -109,5 +109,64 @@ public class MovimientoAMetaOponente : Agent
             floorMeshRenderer.material = loseMaterial;
             EndEpisode();
         }
+    }
+
+    private void Spawn()
+    {
+
+        targetTransform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+        float xAgente = -22f;
+        float zAgente = -26f;
+        float xOponente = -22f;
+        float zOponente = -26f;
+
+        while (xAgente < -21f || xAgente > 16f || zAgente < -25f || zAgente > 10f)
+        {
+
+            float angle = Random.Range(0, 360);
+            xAgente = Mathf.Cos(angle * Mathf.Deg2Rad);
+            zAgente = Mathf.Sin(angle * Mathf.Deg2Rad);
+            xAgente = targetTransform.localPosition.x + xAgente * RadioSpawn;
+            zAgente = targetTransform.localPosition.z + zAgente * RadioSpawn;
+        }
+        transform.localPosition = new Vector3(xAgente, -5.2f, zAgente);
+        while (xOponente < -21f || xOponente > 16f || zOponente < -25f || zOponente > 10f)
+        {
+            float angle = Random.Range(0, 360);
+            xOponente = Mathf.Cos(angle * Mathf.Deg2Rad);
+            zOponente = Mathf.Sin(angle * Mathf.Deg2Rad);
+            xOponente = targetTransform.localPosition.x + xOponente * RadioSpawn;
+            zOponente = targetTransform.localPosition.z + zOponente * RadioSpawn;
+        }
+        Agente.transform.localPosition = new Vector3(xOponente, -5.2f, zOponente);
+
+        this.SetReward(0f);
+        Agente.SetReward(0f);
+
+        
+        /*while (xOponente < -21f || xOponente > 16f || zOponente < -25f || zOponente > 10f)
+        {
+            float anguloOponente = Random.Range(0, 360) * Mathf.PI * 2;
+            xOponente = targetTransform.localPosition.x + Mathf.Cos(anguloOponente) * RadioSpawn;
+            zOponente = targetTransform.localPosition.z + Mathf.Sin(anguloOponente) * RadioSpawn;
+        }
+        Agente.transform.localPosition = new Vector3(xOponente, -5.2f, zOponente);*/
+
+        /*Vector3 puntoMeta = new Vector3(Random.Range(4.5f, -8f), -5.2f, Random.Range(0f, -15f));
+        Vector3 comprobacion = puntoMeta;
+        comprobacion = puntoMeta + Random.insideUnitSphere.normalized * RadioSpawn;
+        while((comprobacion.x > 5f || comprobacion.x < -8f) && comprobacion.y!=-5.2f && (comprobacion.z > 0f || comprobacion.z < -15f))
+        {
+            comprobacion = puntoMeta + Random.insideUnitSphere.normalized * RadioSpawn;
+        }
+        Vector3 puntoAgente = comprobacion;
+        //public GameObject Agente2;
+
+        // Start is called before the first frame 
+
+        //targetTransform.localPosition = new Vector3(Random.Range(4.5f, -8f), -5.2f, Random.Range(0f, -15f));
+        transform.localPosition = puntoAgente;
+        targetTransform.localPosition = puntoMeta;
+        */
     }
 }
