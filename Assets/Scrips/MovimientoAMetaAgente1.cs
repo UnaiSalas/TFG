@@ -71,7 +71,7 @@ public class MovimientoAMetaAgente1 : Agent
         float moveAgente = actions.DiscreteActions[0];
         float moveOponente = actions.DiscreteActions[0];
 
-        float moveSpeed = 2f;
+        float moveSpeed = 1f;
 
         switch (moveAgente)
         {
@@ -104,25 +104,28 @@ public class MovimientoAMetaAgente1 : Agent
     {
         if(other.TryGetComponent<Goal>(out Goal goal)){
             this.AddReward(1f);
-            Oponente.AddReward(-1f);
+            //Oponente.AddReward(-1f);
             floorMeshRenderer.material = winMaterial;
             EndEpisode();
+            Oponente.EndEpisode();
         }
         if (other.TryGetComponent<Muro>(out Muro muro)){
             this.AddReward(-1f);
             floorMeshRenderer.material = loseMaterial;
             EndEpisode();
+            Oponente.EndEpisode();
         }
     }
     private void Spawn()
     {
         targetTransform.localPosition = new Vector3(Random.Range(-21f, 16f), -5.2f, Random.Range(-25f, 10f));
+       
         float xAgente = -22f;
         float zAgente = -26f;
         float xOponente = -22f;
         float zOponente = -26f;
-        float RadioSpawn = Random.Range(5f, 20f);
-
+        float RadioSpawn = Random.Range(5f, 30f);
+        // 8 -13 || -20 4
         while (xAgente < -21f || xAgente > 16f || zAgente < -25f || zAgente > 10f)
         {
 
@@ -142,7 +145,7 @@ public class MovimientoAMetaAgente1 : Agent
             zOponente = targetTransform.localPosition.z + zOponente * RadioSpawn;
         }
         Oponente.transform.localPosition = new Vector3(xOponente, -5.2f, zOponente);
-
+        
         this.SetReward(0f);
         Oponente.SetReward(0f);
 

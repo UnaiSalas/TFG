@@ -66,7 +66,7 @@ public class MovimientoAMetaOponente : Agent
     
         float moveX = actions.DiscreteActions[0];
 
-        float moveSpeed = 2f;
+        float moveSpeed = 1f;
 
         switch (moveX)
         {
@@ -102,11 +102,13 @@ public class MovimientoAMetaOponente : Agent
             Agente.AddReward(-1f);
             floorMeshRenderer.material = winMaterial;
             EndEpisode();
+            Agente.EndEpisode();
         }
         if (other.TryGetComponent<Muro>(out Muro muro)){
             this.AddReward(-1f);
             floorMeshRenderer.material = loseMaterial;
             EndEpisode();
+            Agente.EndEpisode();
         }
     }
 
@@ -118,7 +120,7 @@ public class MovimientoAMetaOponente : Agent
         float zAgente = -26f;
         float xOponente = -22f;
         float zOponente = -26f;
-        float RadioSpawn = Random.Range(5f, 20f);
+        float RadioSpawn = Random.Range(5f, 30f);
 
         while (xAgente < -21f || xAgente > 16f || zAgente < -25f || zAgente > 10f)
         {

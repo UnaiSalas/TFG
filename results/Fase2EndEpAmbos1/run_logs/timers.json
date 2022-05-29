@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1653643918",
+        "python_version": "3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\unais\\anaconda3\\Scripts\\mlagents-learn config/PPODobleAgente.yml --run-id=Fase2EndEpAmbos1 --force",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0+cu113",
+        "numpy_version": "1.20.3",
+        "end_time_seconds": "1653643980"
+    },
+    "total": 61.7429413,
+    "count": 1,
+    "self": 0.007038000000001432,
+    "children": {
+        "run_training.setup": {
+            "total": 0.2217321000000001,
+            "count": 1,
+            "self": 0.2217321000000001
+        },
+        "TrainerController.start_learning": {
+            "total": 61.5141712,
+            "count": 1,
+            "self": 8.109999999561524e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.5140711,
+                    "count": 1,
+                    "self": 61.5140711
+                },
+                "TrainerController._save_models": {
+                    "total": 1.9000000001767603e-05,
+                    "count": 1,
+                    "self": 1.9000000001767603e-05
+                }
+            }
+        }
+    }
+}

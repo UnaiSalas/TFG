@@ -1,0 +1,69 @@
+{
+    "MoverAObjetivoAgente": {
+        "checkpoints": [
+            {
+                "steps": 499959,
+                "file_path": "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoAgente\\MoverAObjetivoAgente-499959.onnx",
+                "reward": null,
+                "creation_time": 1651873225.1349947,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoAgente\\MoverAObjetivoAgente-499959.pt"
+                ]
+            },
+            {
+                "steps": 819063,
+                "file_path": "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoAgente\\MoverAObjetivoAgente-819063.onnx",
+                "reward": null,
+                "creation_time": 1651873991.0305889,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoAgente\\MoverAObjetivoAgente-819063.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 819063,
+            "file_path": "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoAgente.onnx",
+            "reward": null,
+            "creation_time": 1651873991.0305889,
+            "auxillary_file_paths": [
+                "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoAgente\\MoverAObjetivoAgente-819063.pt"
+            ]
+        }
+    },
+    "MoverAObjetivoOponente": {
+        "checkpoints": [
+            {
+                "steps": 499989,
+                "file_path": "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoOponente\\MoverAObjetivoOponente-499989.onnx",
+                "reward": null,
+                "creation_time": 1651873225.3374937,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoOponente\\MoverAObjetivoOponente-499989.pt"
+                ]
+            },
+            {
+                "steps": 819440,
+                "file_path": "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoOponente\\MoverAObjetivoOponente-819440.onnx",
+                "reward": null,
+                "creation_time": 1651873991.1382914,
+                "auxillary_file_paths": [
+                    "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoOponente\\MoverAObjetivoOponente-819440.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 819440,
+            "file_path": "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoOponente.onnx",
+            "reward": null,
+            "creation_time": 1651873991.1382914,
+            "auxillary_file_paths": [
+                "results\\Fase2Circunferencia5Raycast20\\MoverAObjetivoOponente\\MoverAObjetivoOponente-819440.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cu113"
+    }
+}
