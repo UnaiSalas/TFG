@@ -53,12 +53,12 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrips\LaberintoRender.cs" />
     <Compile Include="Assets\Scrips\MovimientoAMetaOponente.cs" />
+    <Compile Include="Assets\Scrips\Laberinto.cs" />
     <Compile Include="Assets\Scrips\Goal.cs" />
     <Compile Include="Assets\Scrips\Muro.cs" />
     <Compile Include="Assets\Scrips\MovimientoAMetaAgente1.cs" />
-    <Compile Include="Assets\Scrips\Laberinto.cs" />
-    <Compile Include="Assets\Scrips\LaberintoRender.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

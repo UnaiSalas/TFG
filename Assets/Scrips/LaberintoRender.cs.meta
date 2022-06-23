@@ -3,7 +3,11 @@ guid: 0cac9b0c6edba9148a19ad0b75efc71a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - muroPrefab: {fileID: 9072945105478027347, guid: 54a9d51d5bd788b45a740d7ce9149b37, type: 3}
+  - sueloPrefab: {fileID: 1213081514936100953, guid: b83fbefabccef3f4a957e0b18445d1d0, type: 3}
+  - Agente: {instanceID: 0}
+  - Oponente: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

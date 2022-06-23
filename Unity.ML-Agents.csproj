@@ -53,122 +53,122 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\RawBytesChannel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Agent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\FloatPropertiesChannel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Communicator\GrpcExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Timer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\IActuator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\BoolReflectionSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\IActionReceiver.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\Vector3ReflectionSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\IntReflectionSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Constants.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Policies\BehaviorParameters.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\Vector4ReflectionSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\RayPerceptionSensorComponent2D.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\ReflectionSensorBase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Demonstrations\DemonstrationMetaData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\ActionSpec.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\TensorNames.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\TensorGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Communicator\UnityRLCapabilities.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\IDiscreteActionMask.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\StatsRecorder.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\UnityAgentsException.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\RayPerceptionSensorComponentBase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\VectorActuator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sampler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\RenderTextureSensorComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\OutgoingMessage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Policies\BarracudaPolicy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\QuaternionReflectionSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\SensorComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\RenderTextureSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Communicator\RpcCommunicator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\RayPerceptionSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Utilities.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\Utils\RandomNormal.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\FloatReflectionSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Demonstrations\DemonstrationRecorder.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Policies\RemotePolicy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\ActuatorDiscreteActionMask.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\RayPerceptionSensorComponent3D.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\DecisionRequester.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\TensorApplier.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\TensorProxy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\EnvironmentParametersChannel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\EnumReflectionSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\VectorSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Academy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\SensorShapeValidator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\SideChannel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Policies\BrainParameters.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\StackingSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Demonstrations\DemonstrationWriter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SensorHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\StatsSideChannel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\ApplierImpl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\ISensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\ObservableAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\CameraSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\CameraSensorComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\ActuatorComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\GeneratorImpl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\ObservationWriter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\ModelRunner.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\EngineConfigurationChannel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Policies\HeuristicPolicy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Communicator\ICommunicator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\SideChannelManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\Reflection\Vector2ReflectionSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\ActionSegment.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\IncomingMessage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\EpisodeIdCounter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Policies\IPolicy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\ActuatorManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\BarracudaModelParamLoader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\Utils\Multinomial.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\EnvironmentParameters.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Demonstrations\DemonstrationSummary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\IHeuristicProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\BufferSensorComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Analytics\TrainingAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Analytics\Events.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\BufferSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Analytics\InferenceAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SideChannels\TrainingAnalyticsSideChannel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Inference\BarracudaModelExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Analytics\AnalyticsUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\IBuiltInSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Actuators\IBuiltInActuator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\RecursionChecker.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\GridSensorComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\InplaceArray.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\GridSensorBase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Communicator\CommunicatorFactory.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\MLAgentsSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Integrations\Match3\AbstractBoard.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Areas\TrainingAreaReplicator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\IMultiAgentGroup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\BoxOverlapChecker.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\VectorSensorComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Integrations\Match3\Match3ActuatorComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Integrations\Match3\Move.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\OneHotGridSensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\MLAgentsSettingsManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\MultiAgentGroupIdCounter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\SimpleMultiAgentGroup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\ObservationSpec.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Integrations\Match3\Match3SensorComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Integrations\Match3\Match3Sensor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Integrations\Match3\Match3Actuator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\IGridPerception.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Sensors\CompressionSpec.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\RawBytesChannel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Agent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\GridSensorComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\IHeuristicProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\FloatPropertiesChannel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Analytics\TrainingAnalytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Analytics\Events.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\InplaceArray.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Communicator\GrpcExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\BarracudaModelExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Timer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\MLAgentsSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\IActuator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\BoolReflectionSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Areas\TrainingAreaReplicator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\IActionReceiver.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\Vector3ReflectionSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\IntReflectionSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Constants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Policies\BehaviorParameters.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\Vector4ReflectionSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\MultiAgentGroupIdCounter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\RayPerceptionSensorComponent2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Analytics\InferenceAnalytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\ReflectionSensorBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Demonstrations\DemonstrationMetaData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Analytics\AnalyticsUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\ActionSpec.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Integrations\Match3\Match3SensorComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Integrations\Match3\Match3Actuator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\TensorNames.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\TensorGenerator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\CompressionSpec.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Communicator\UnityRLCapabilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\IDiscreteActionMask.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\StatsRecorder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\UnityAgentsException.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\RayPerceptionSensorComponentBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\VectorActuator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sampler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\RenderTextureSensorComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\GridSensorBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\OutgoingMessage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Policies\BarracudaPolicy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\QuaternionReflectionSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\SensorComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\RenderTextureSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\IBuiltInActuator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Communicator\RpcCommunicator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\RayPerceptionSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Utilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\Utils\RandomNormal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\FloatReflectionSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\BufferSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Demonstrations\DemonstrationRecorder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Policies\RemotePolicy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\TrainingAnalyticsSideChannel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\ActuatorDiscreteActionMask.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\RayPerceptionSensorComponent3D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\ObservationSpec.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\DecisionRequester.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\TensorApplier.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\TensorProxy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\EnvironmentParametersChannel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\EnumReflectionSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\VectorSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Academy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\BufferSensorComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\SensorShapeValidator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\SideChannel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Policies\BrainParameters.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\StackingSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Demonstrations\DemonstrationWriter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SensorHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\StatsSideChannel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Integrations\Match3\AbstractBoard.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\ApplierImpl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\ISensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\RecursionChecker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\ObservableAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\CameraSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\CameraSensorComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\MLAgentsSettingsManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SimpleMultiAgentGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\GeneratorImpl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\ActuatorComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\ObservationWriter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\ModelRunner.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\IGridPerception.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\EngineConfigurationChannel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Policies\HeuristicPolicy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Communicator\ICommunicator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\SideChannelManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\Reflection\Vector2ReflectionSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\ActionSegment.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Communicator\CommunicatorFactory.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\SideChannels\IncomingMessage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\IBuiltInSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\EpisodeIdCounter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Policies\IPolicy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Actuators\ActuatorManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\IMultiAgentGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\BoxOverlapChecker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\VectorSensorComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\BarracudaModelParamLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Inference\Utils\Multinomial.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Integrations\Match3\Match3ActuatorComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Integrations\Match3\Move.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Sensors\OneHotGridSensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\EnvironmentParameters.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Integrations\Match3\Match3Sensor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Demonstrations\DemonstrationSummary.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Runtime\Unity.ML-Agents.asmdef" />
+    <None Include="Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Runtime\Unity.ML-Agents.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -406,49 +406,46 @@
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions">
-      <HintPath>Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Plugins\System.IO.Abstractions.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Plugins\System.IO.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>Library\PackageCache\com.unity.barracuda@3.0.0\Barracuda\Runtime\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Interactive.Async">
-      <HintPath>Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
-    </Reference>
-    <Reference Include="Grpc.Core">
-      <HintPath>Library\PackageCache\com.unity.ml-agents@2.3.0-exp.2\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.barracuda@2.3.1-preview\Barracuda\Runtime\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Abstractions.TestingHelpers">
+      <HintPath>Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Interactive.Async">
+      <HintPath>Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core">
+      <HintPath>Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

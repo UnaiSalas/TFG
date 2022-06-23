@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -40,9 +40,10 @@ public static class Generador
         }
     }
     private static Estados[,] Backtracking(Estados[,] laberinto, int alto, int ancho)
-    {
-        var rng = new System.Random(/*seed*/);
-        var Stack = new Stack<Posicion>();
+    {*/
+
+        //var rng = new System.Random(/*seed*///);
+        /*var Stack = new Stack<Posicion>();
         var posicion = new Posicion { X = rng.Next(0, ancho), Y = rng.Next(0, alto) };
 
         laberinto[posicion.X, posicion.Y] |= Estados.VISITADO;
@@ -157,3 +158,4 @@ public static class Generador
 ;    }
 }
 
+*/

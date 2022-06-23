@@ -66,7 +66,7 @@ public class MovimientoAMetaOponente : Agent
     
         float moveX = actions.DiscreteActions[0];
 
-        float moveSpeed = 1f;
+        float moveSpeed = 2f;
 
         switch (moveX)
         {
@@ -97,13 +97,13 @@ public class MovimientoAMetaOponente : Agent
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent<Goal>(out Goal goal)){
+        /*if(other.TryGetComponent<Goal>(out Goal goal)){
             this.AddReward(1f);
             Agente.AddReward(-1f);
             floorMeshRenderer.material = winMaterial;
             EndEpisode();
             Agente.EndEpisode();
-        }
+        }*/
         if (other.TryGetComponent<Muro>(out Muro muro)){
             this.AddReward(-1f);
             floorMeshRenderer.material = loseMaterial;

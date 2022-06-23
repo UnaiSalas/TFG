@@ -14,8 +14,8 @@ behaviors:
       epsilon_schedule: linear
     network_settings:
       normalize: false
-      hidden_units: 256
-      num_layers: 4
+      hidden_units: 128
+      num_layers: 2
     reward_signals:
       extrinsic:
         gamma: 0.99
@@ -38,8 +38,8 @@ behaviors:
       epsilon_schedule: linear
     network_settings:
       normalize: false
-      hidden_units: 256
-      num_layers: 4
+      hidden_units: 128
+      num_layers: 2
     reward_signals:
       extrinsic:
         gamma: 0.99
